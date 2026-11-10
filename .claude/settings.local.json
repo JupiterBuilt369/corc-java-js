@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gradle wrapper *)",
+      "Bash(./gradlew compileJava)",
+      "Bash(pg_isready *)",
+      "Bash(psql -U postgres -c \"\\\\l\")",
+      "Bash(psql *)",
+      "Bash(./gradlew build *)",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(timeout 45 ./gradlew bootRun)",
+      "Bash(timeout 30 ./gradlew bootRun)"
+    ]
+  }
+}
